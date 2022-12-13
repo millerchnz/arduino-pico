@@ -103,7 +103,7 @@ extern bool __isFreeRTOS;
 
 #ifdef USE_TINYUSB
 // Needed for declaring Serial
-#include "Adafruit_USBD_CDC.h"
+#include "arduino/Adafruit_USBD_CDC.h"
 #else
 #include "SerialUSB.h"
 #endif
